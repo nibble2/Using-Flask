@@ -1,0 +1,30 @@
+* {
+        font-family: 'Stylish', sans-serif;
+    }
+
+    .wrap {
+        width: 900px;
+        margin: auto;
+    }
+
+    .comment {
+        color: blue;
+        font-weight: bold;
+    }
+
+    .form-post {
+        background: #f2f2f2;
+        max-width: 500px;
+        /* 요소의 최대 너비 지정 */
+        padding: 2rem;
+        /* 안의 부분을 넓혀줌 */
+        margin: 2rem auto;
+        /* 밖의 부분을 넓혀줌 */
+        border-radius: 0.3rem;
+        display: block;
+        /*자동으로 줄 바꿈과 크기 지정*/
+    }
+
+    #posting-box {
+        display: none;
+    }
